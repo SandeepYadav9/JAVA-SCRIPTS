@@ -1,5 +1,5 @@
 const numbers=[1,2,3,4];
-[num1, num2]=numbers; // Primitive Type
+[num1, num2]=numbers; 
 console.log(num1, num2)
 
 const number=[1,2,3,4];
