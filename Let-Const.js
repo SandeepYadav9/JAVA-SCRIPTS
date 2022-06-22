@@ -9,7 +9,12 @@ var = Can also update Value
 
 let a=10;
     a=20 // 20
-
+    ==========
+    // Most of Ask in interview
+    let a=10;
+    let a=20; // Block Scope 
+    console.log(a) // Syntax Error 
+    =====================
 const a=12;
       a=21; // Type Error 
 
