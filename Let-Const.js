@@ -18,8 +18,14 @@ let a=10;
 const a=12;
       a=21; // Type Error 
 
-let = block Scope - can not redeclear variable  - Hosting does not occer in let
+let = block Scope - can not redeclear variable  - Hosting does not occer in let 
+console.log(a); 
+let a; 
+// output: Refference Error its not an error
 var = function Scope - Can redeclear Variable   - Hosting occer in var 
+console.log(a);
+var a; 
+// output: undefiend its not an error )
 
 */
 
