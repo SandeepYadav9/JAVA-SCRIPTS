@@ -1,4 +1,6 @@
 // RestOperator
+// Rest Used to take list of function arguments and convert them into an Array
+
 
 const restOperators=(...args) =>{
     return args.filter((el)=>el === 3)
