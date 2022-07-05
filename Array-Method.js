@@ -22,16 +22,11 @@ arr.forEatch((value, index, array)=>{
 
 /*
 3/10
-calls defiend callbackFun on eatch element of an array .
-And return that contain result of an array 
-
-callbackFun---- callbackFun contain up three arguments map method calls
-callbcak function one time for eatch element in Array.
 
 
 */
 let arr=[1,2,3,4,5];
-arr.forEatch((value, index, array)=>{
+arr.map((value, index, array)=>{
   return(
   console.log(value) // 1,2,3,4,5,6
  
