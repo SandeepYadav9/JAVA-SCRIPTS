@@ -1,10 +1,8 @@
 1. forEatch(callbackFun) 
 /*
 Perform the specified action for eatch element of an array 
-
-**callbackFun** - A function contain three arguments 
-the forEatch function calls the function one time for eatch elements on
-Array 
+ forEatch() - calls the callback function of eatch elemts of array 
+ forEatch() - never calles   callback function empty elemenst of array 
 */
 
 let arr=[1,2,3,4,5];
@@ -21,7 +19,10 @@ arr.forEatch((value, index, array)=>{
   2. map();
 
 /*
-3/10
+1. map() - map method update array elements calls the callback function for eatch elememts of array 
+2. map() - calls the callback function of eatch elemts of array 
+2. map() - never calles   callback function empty elemenst of array 
+3. map() - never change original array 
 
 
 */
