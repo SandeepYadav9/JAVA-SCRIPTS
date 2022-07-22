@@ -8,7 +8,9 @@ Arrow Functions
 
 
 2. Arrow Functions  Syntax are :   ()=>{}
-    -Store  inside const  than right side equal sign than arrow function Syntax Parentheses () that hold list of arguments  and equal sign & greater => than than function body 
+    -Store  inside const  than right side equal sign than arrow function Syntax Parentheses () 
+     that hold list of arguments  and equal sign & greater => than than function body 
+
   const funName=()=>{ // }
   
   
